@@ -2,6 +2,33 @@ st - simple terminal
 --------------------
 st is a simple terminal emulator for X which sucks less.
 
+Notes
+-----
+This is a fork of st that includes useful patches and tweaks.
+
+The original repo can be found here: https://st.suckless.org/
+
+Patches
+-------
+st-bold-is-not-bright-20190127-3be4cf1.diff
+st-clickurl-0.8.5.diff
+st-externalpipe-0.8.5.diff
+st-externalpipe-eternal-0.8.3.diff
+st-gruber-darker-0.9.2.diff
+st-hidecursor-0.8.3.diff
+st-scrollback-0.8.5.diff
+
+Additionally, I borrowed scripts for interacting with the screen output
+from Luke Smith's version of st: https://github.com/LukeSmithxyz/st
+
+Added shortcuts
+---------------
+Alt + p   Scroll up
+Alt + n   Scroll down
+Alt + l   Open URL in browser
+Alt + y   Copy URL
+Alt + t   Copy output
+
 
 Requirements
 ------------
